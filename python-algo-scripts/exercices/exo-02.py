@@ -26,7 +26,7 @@ select = input("Voulez-vous bien acheter les produits suivants : " + str(list_co
 if select.lower() == "oui":
     print(f"Vous avez acheté {', '.join(list_courses)} pour {somme_dépensée}€ et il vous reste {somme_totale}€")
 else:
-    print("Vous n'avez rien acheté !")
+    print("Not cool !")
 
 
  
