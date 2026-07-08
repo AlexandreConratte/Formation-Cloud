@@ -17,7 +17,7 @@ for i in range(len(produits)):
     if select.lower() == "oui":
      somme_totale -= price[i] 
      list_courses.append(produits[i])
-    print(somme_totale)
+    print(f"{somme_totale:.1f}")
 
 somme_dépensée = 20 - somme_totale
 
