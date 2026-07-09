@@ -8,6 +8,7 @@ age = 29
 
 print ("Bonjour " + firstname + " " + name + ", vous avez " + str(age) + "ans!")
 
+
 today = date.today()
 print(today)   
 birthdate = today.year - age
