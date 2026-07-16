@@ -5,17 +5,15 @@ MOTS = ["hunter",
 "fullmetal",
 "bleach",
 "parasyte",
-"",
-"",
-"",
-"",]
+"codegeass",
+]
 
 def select_world() : 
-    """Selectionne un mot."""
+    
     return random.choice(MOTS)
 
 def choisir_mot():
-    """Sélectionne un mot aléatoirement."""
+    
     return random.choice(MOTS)
 
 
