@@ -1,0 +1,28 @@
+[
+    {
+        "nom": "Ambre",
+        "prenom": "Conratte",
+        "date_naissance": "26/07/1998",
+        "adresse": {
+            "numero": "63",
+            "voie": "rue Ratisbonne",
+            "code_postal": "59000",
+            "commune": "Lille"
+        },
+        "telephone": "0611111111",
+        "email": "ambre.conratte@gmail.com"
+    },
+    {
+        "nom": "Alexandre",
+        "prenom": "Conratte",
+        "date_naissance": "20/08/1996",
+        "adresse": {
+            "numero": "66",
+            "voie": "rue de la barre",
+            "code_postal": "59800",
+            "commune": "Lille"
+        },
+        "telephone": "0622222222",
+        "email": "alex.conratte@gmail.com"
+    }
+]
