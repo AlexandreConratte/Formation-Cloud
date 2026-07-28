@@ -2,9 +2,8 @@ import json
 from pathlib import Path
 
 
-FICHIER_USERS = Path("users.json")
-
-
+FICHIER_USERS = Path(__file__).resolve().parent / "users.json"
+1
 def charger_users():
 
     if not FICHIER_USERS.exists():
@@ -53,7 +52,6 @@ Email : {user["email"]}
 
 
 def demander_adresse():
-    """Demande les informations concernant une adresse."""
 
     return {
         "numero": input("Numéro de voie : ").strip(),
@@ -64,7 +62,7 @@ def demander_adresse():
 
 
 def ajouter_user(users):
-    """Ajoute un nouvel utilisateur."""
+   
 
     print("\n--- Ajouter un utilisateur ---")
 
@@ -86,7 +84,6 @@ def ajouter_user(users):
 
 
 def choisir_user(users):
-    """Demande à l'utilisateur de sélectionner une personne."""
 
     if not users:
         print("\nAucun utilisateur enregistré.")
@@ -126,7 +123,7 @@ def modifier_champ(message, ancienne_valeur):
 
 
 def modifier_user(users):
-    """Modifie un utilisateur existant."""
+    
 
     print("\n--- Modifier un utilisateur ---")
 
@@ -182,7 +179,6 @@ def modifier_user(users):
 
 
 def supprimer_user(users):
-    """Supprime un utilisateur."""
 
     print("\n--- Supprimer un utilisateur ---")
 
