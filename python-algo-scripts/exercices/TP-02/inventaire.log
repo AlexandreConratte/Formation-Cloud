@@ -1,0 +1,12 @@
+2026-07-29 15:45:56,813 | INFO | Hôte boucle-locale (127.0.0.1) joignable.
+2026-07-29 15:45:56,828 | INFO | Hôte localhost (localhost) joignable.
+2026-07-29 15:45:59,846 | WARNING | Hôte hote-injoignable (192.0.2.1) injoignable.
+2026-07-29 15:45:59,847 | INFO | Rapport écrit dans rapport.json.
+2026-07-29 16:08:37,322 | INFO | Hôte boucle-locale (127.0.0.1) joignable.
+2026-07-29 16:08:37,339 | INFO | Hôte localhost (localhost) joignable.
+2026-07-29 16:08:40,348 | WARNING | Hôte hote-injoignable (192.0.2.1) injoignable.
+2026-07-29 16:08:40,359 | INFO | Rapport écrit dans rapport.json.
+2026-07-29 16:11:12,934 | INFO | Hôte boucle-locale (127.0.0.1) joignable.
+2026-07-29 16:11:12,950 | INFO | Hôte localhost (localhost) joignable.
+2026-07-29 16:11:15,958 | WARNING | Hôte hote-injoignable (192.0.2.1) injoignable.
+2026-07-29 16:11:15,960 | INFO | Rapport écrit dans rapport.json.

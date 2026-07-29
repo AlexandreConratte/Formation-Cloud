@@ -1,0 +1,26 @@
+{
+  "genere_le": "2026-07-29T14:11:15.959269+00:00",
+  "total": 3,
+  "joignables": 2,
+  "injoignables": 1,
+  "hotes": [
+    {
+      "nom": "boucle-locale",
+      "adresse": "127.0.0.1",
+      "role": "test",
+      "joignable": true
+    },
+    {
+      "nom": "localhost",
+      "adresse": "localhost",
+      "role": "test",
+      "joignable": true
+    },
+    {
+      "nom": "hote-injoignable",
+      "adresse": "192.0.2.1",
+      "role": "test",
+      "joignable": false
+    }
+  ]
+}
