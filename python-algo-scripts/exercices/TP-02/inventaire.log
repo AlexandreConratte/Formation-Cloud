@@ -10,3 +10,15 @@
 2026-07-29 16:11:12,950 | INFO | Hôte localhost (localhost) joignable.
 2026-07-29 16:11:15,958 | WARNING | Hôte hote-injoignable (192.0.2.1) injoignable.
 2026-07-29 16:11:15,960 | INFO | Rapport écrit dans rapport.json.
+2026-07-29 16:19:27,517 | INFO | Hôte boucle-locale (127.0.0.1) joignable.
+2026-07-29 16:19:27,532 | INFO | Hôte localhost (localhost) joignable.
+2026-07-29 16:19:29,552 | WARNING | Hôte hote-injoignable (192.0.2.1) injoignable.
+2026-07-29 16:19:29,553 | INFO | Rapport écrit dans rapport.json.
+2026-07-29 16:20:25,605 | INFO | Hôte boucle-locale (127.0.0.1) joignable.
+2026-07-29 16:20:25,620 | INFO | Hôte localhost (localhost) joignable.
+2026-07-29 16:20:27,631 | WARNING | Hôte hote-injoignable (192.0.2.1) injoignable.
+2026-07-29 16:20:27,632 | INFO | Rapport écrit dans C:\Users\Administrateur\OneDrive - M2I\Bureau\.repos\Formation-Cloud\python-algo-scripts\exercices\TP-02\rapport.json.
+2026-07-29 16:21:08,838 | INFO | Hôte boucle-locale (127.0.0.1) joignable.
+2026-07-29 16:21:08,852 | INFO | Hôte localhost (localhost) joignable.
+2026-07-29 16:21:10,867 | WARNING | Hôte hote-injoignable (192.0.2.1) injoignable.
+2026-07-29 16:21:10,870 | INFO | Rapport écrit dans C:\Users\Administrateur\OneDrive - M2I\Bureau\.repos\Formation-Cloud\python-algo-scripts\exercices\TP-02\rapport.json.
