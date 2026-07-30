@@ -5,8 +5,12 @@ import platform
 import subprocess
 import sys
 from datetime import datetime, timezone
+from pathlib import Path
 
 import yaml
+
+
+DOSSIER_SCRIPT = Path(__file__).resolve().parent
 
 
 def configurer_logging(chemin):
@@ -27,13 +31,13 @@ def charger_hotes(chemin):
             donnees = yaml.safe_load(fichier)
             return donnees["hotes"]
     except FileNotFoundError:
-        logging.error(f"Fichier {chemin} introuvable...")
+        logging.error(f"Fichier {chemin} introuvable/inexistant...")
         sys.exit(1)
     except KeyError:
         logging.error(f"Clé 'hotes' absente du fichier {chemin}...")
         sys.exit(1)
     except yaml.YAMLError:
-        logging.error(f"Le fichier YAML {chemin} est invalide...")
+        logging.error(f"Fichier yaml {chemin} est invalide...")
         sys.exit(1)
 
 
@@ -101,23 +105,23 @@ def ecrire_rapport(resultats, chemin):
     logging.info(f"Rapport écrit dans {chemin}.")
 
 
-def analyser_arguments():
+def arpase_arguments():
     parseur = argparse.ArgumentParser(
         description="Contrôle la disponibilité des machines d'un inventaire YAML."
     )
     parseur.add_argument(
         "--fichier",
-        default="hotes.yaml",
+        default=DOSSIER_SCRIPT / "hotes.yaml",
         help="fichier YAML d'inventaire (hotes.yaml)"
     )
     parseur.add_argument(
         "--rapport",
-        default="rapport.json",
+        default=DOSSIER_SCRIPT / "rapport.json",
         help="fichier JSON de sortie (rapport.json)"
     )
     parseur.add_argument(
         "--log",
-        default="inventaire.log",
+        default=DOSSIER_SCRIPT / "inventaire.log",
         help="fichier de log (inventaire.log)"
     )
     parseur.add_argument(
@@ -130,7 +134,7 @@ def analyser_arguments():
 
 
 def main():
-    arguments = analyser_arguments()
+    arguments = arpase_arguments()
     configurer_logging(arguments.log)
 
     hotes = charger_hotes(arguments.fichier)
@@ -146,3 +150,4 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
+
