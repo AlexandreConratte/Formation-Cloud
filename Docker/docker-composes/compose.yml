@@ -1,0 +1,24 @@
+services:
+    site1:
+      image: nginx:alpine
+      container_name: html5up-site1
+      ports:
+        - "8081:80"
+      volumes:
+        - ./sites/site1:/usr/share/nginx/html:ro
+
+    site2:
+      image: nginx:alpine
+      container_name: html5up-site2
+      ports:
+        - "8082:80"
+      volumes:
+        - ./sites/site2:/usr/share/nginx/html:ro
+
+    site3:
+      image: nginx:alpine
+      container_name: html5up-site3
+      ports:
+        - "8083:80"
+      volumes:
+        - ./sites/site3:/usr/share/nginx/html:ro
