@@ -7,3 +7,5 @@ security group sg-0b99371b4fd5981b9
 "C:\Users\Administrateur\Downloads\site.zip"
 
 13.38.64.87 ip instance2
+
+
